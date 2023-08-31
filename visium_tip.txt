@@ -1,0 +1,7 @@
+Now you can press the buttons to draw visualization map of gene expression.
+1.Create Seurat object and draw a spatial cluster diagram.
+2.UMI statistical chart
+3.nFeature statistical chart
+4.the heat map of a single gene expression.
+5. Draw a cluster map of one or some genes.
+6. Draw a single cluster cluster diagram

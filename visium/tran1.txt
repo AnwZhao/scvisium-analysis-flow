@@ -1,0 +1,31 @@
+source('visium/Bmk_Space_mapping_v3.R')
+
+
+object <- Create_object(
+  
+  FilePath = 'L7_callus1',
+  
+  barcode_pos_file = 'L7_callus1/barcodes_pos.tsv.gz',
+  
+  out_path = 'tran1',
+  
+  png_path = 'L7_callus1/he_new.png',
+  
+  min.cells = 10,         
+  
+  min.features = 100,     
+  
+  dims = 1:25,           
+  
+  resolution = 0.5,      
+  
+  point_size = 1,         
+  
+  width = 12,           
+  
+  height = 5,           
+  
+  Cluster = T,         
+  
+  label = T            
+)

@@ -1,0 +1,22 @@
+source('visium/Bmk_Space_mapping_v3.R')
+
+object <- Create_object(
+  
+  FilePath = 'L7_callus1',
+  
+  barcode_pos_file = 'L7_callus1/barcodes_pos.tsv.gz',
+  
+  out_path = 'tran5',
+  
+  png_path = 'L7_callus1/he_new.png',
+  
+  point_size = 2.6,                   
+
+  Gene_stat = T,                     
+  
+  Custom_gene = T,                   
+  
+  alpha_continuous = c(0.5,1),        
+  
+  gene_list = c('Solyc07g007755.2')
+)  
